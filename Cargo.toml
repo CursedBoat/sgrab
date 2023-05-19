@@ -1,0 +1,13 @@
+[package]
+name = "sgrab"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.0.0"
+ffmpeg-sidecar = "0.4.1"
+serde = {version = "1.0.163", features = ["derive", "std"]}
+terminal-menu = "2.0.5"
+toml = "0.7.4"
